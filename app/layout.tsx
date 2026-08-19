@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Company Memory",
-  description: "Turn your company's scattered knowledge into a private, searchable AI memory in seven days.",
+  description: "Give Claude Code a persistent memory for your business. Follow the free guide or get a done-for-you Company Memory in seven days.",
   other: {
     "codex-preview": "development",
   },
