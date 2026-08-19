@@ -1,5 +1,4 @@
-const setupEmail =
-  "mailto:hello@companymemory.co?subject=Build%20my%20Company%20Memory&body=Hi%20Gibran%2C%0A%0AI%20want%20help%20setting%20up%20a%20Company%20Memory.%0A%0ACompany%3A%20%0ATeam%20size%3A%20%0AThe%20tools%20we%20use%3A%20%0AThe%20knowledge%20I%20most%20want%20it%20to%20remember%3A%20%0A%0AThanks!";
+const checkoutUrl = "https://buy.stripe.com/00weVd1txg4x8BO6aj4Ni06";
 
 const bootstrapPrompt = `Read and follow every step of:
 https://raw.githubusercontent.com/garrytan/gbrain/latest-stable/BOOTSTRAP_FOR_AGENTS.md
@@ -22,7 +21,7 @@ export default function Home() {
           <a href="#done-for-you">Done for you</a>
           <a href="#faq">FAQ</a>
         </nav>
-        <a className="header-cta" href={setupEmail}>Build mine</a>
+        <a className="header-cta" href={checkoutUrl}>Build mine</a>
       </header>
 
       <section className="hero">
@@ -34,7 +33,7 @@ export default function Home() {
           connections between them.
         </p>
         <div className="hero-actions">
-          <a className="button button-dark" href={setupEmail}>Build it for me</a>
+          <a className="button button-dark" href={checkoutUrl}>Build it for me</a>
           <a className="button button-light" href="#diy">I will do it myself</a>
         </div>
         <p className="microcopy">$2,000 done-for-you setup. Free instructions below.</p>
@@ -145,7 +144,7 @@ export default function Home() {
               <li>Five workflows built around your real questions</li>
               <li>Launch session and team handoff</li>
             </ul>
-            <a className="button button-white" href={setupEmail}>Build my Company Memory</a>
+            <a className="button button-white" href={checkoutUrl}>Build my Company Memory</a>
             <p className="offer-note">Delivered in seven days. You own the setup.</p>
           </article>
         </div>
@@ -349,7 +348,7 @@ export default function Home() {
           I will build the first version, connect the important sources, and show
           you how to use it on the questions that already slow you down.
         </p>
-        <a className="button button-white" href={setupEmail}>Build my Company Memory</a>
+        <a className="button button-white" href={checkoutUrl}>Build my Company Memory</a>
         <span>$2,000 one time. Delivered in seven days.</span>
       </section>
 
