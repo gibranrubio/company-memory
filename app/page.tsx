@@ -39,6 +39,47 @@ export default function Home() {
         <p className="microcopy">$2,000 done-for-you setup. Free instructions below.</p>
       </section>
 
+      <section className="gbrain-credit" aria-labelledby="gbrain-credit-title">
+        <div className="gbrain-credit-main">
+          <div>
+            <p className="eyebrow">Built on open source</p>
+            <h2 id="gbrain-credit-title">Built using GBrain.</h2>
+          </div>
+          <p className="gbrain-credit-copy">
+            GBrain is the open-source AI memory system created by Garry Tan,
+            President and CEO of Y Combinator. The project has earned more than
+            28,000 GitHub stars. I independently implement it for founders and
+            their businesses.
+          </p>
+        </div>
+
+        <div className="gbrain-credit-meta">
+          <p className="gbrain-credit-line">
+            Open-source software by Garry Tan.<br />
+            Independent implementation by Gibran Rubio.
+          </p>
+          <a
+            className="gbrain-repo-link"
+            href="https://github.com/garrytan/gbrain"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>View the official repository</span>
+            <img
+              src="https://img.shields.io/github/stars/garrytan/gbrain?style=flat-square&logo=github&label=GitHub%20stars&color=111111"
+              alt="Live GitHub star count for garrytan/gbrain"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <p className="gbrain-disclaimer">
+          Company Memory is an independent implementation service. It is not
+          affiliated with, sponsored by, or endorsed by Garry Tan, Y Combinator,
+          or the GBrain project.
+        </p>
+      </section>
+
       <section className="proof-line" aria-label="Offer highlights">
         <div><strong>7 days</strong><span>From kickoff to working brain</span></div>
         <div><strong>3 sources</strong><span>Connected and organized</span></div>

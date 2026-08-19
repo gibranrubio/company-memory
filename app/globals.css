@@ -103,6 +103,73 @@ nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .button-white { background: #fff; color: var(--ink); border-color: #fff; }
 .microcopy { margin: 15px 0 0; color: var(--muted); font-size: 12px; }
 
+.gbrain-credit {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 64px 0 54px;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+.gbrain-credit-main {
+  display: grid;
+  grid-template-columns: minmax(260px, .75fr) minmax(0, 1.25fr);
+  gap: 90px;
+  align-items: start;
+}
+.gbrain-credit h2 {
+  max-width: 450px;
+  margin: 14px 0 0;
+  font-size: clamp(42px, 5.5vw, 72px);
+  line-height: .95;
+  letter-spacing: -.055em;
+}
+.gbrain-credit-copy {
+  max-width: 650px;
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.45;
+  letter-spacing: -.02em;
+}
+.gbrain-credit-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.gbrain-credit-line {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.gbrain-repo-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.gbrain-repo-link span {
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 3px;
+}
+.gbrain-repo-link img {
+  height: 24px;
+  display: block;
+}
+.gbrain-disclaimer {
+  max-width: 760px;
+  margin: 30px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
 .proof-line {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -286,6 +353,17 @@ footer span:last-child { text-align: right; }
   .final-cta { padding: 85px 15px; }
   footer { grid-template-columns: 1fr 1fr; padding-block: 25px; }
   footer span:nth-child(2) { display: none; }
+}
+
+@media (max-width: 900px) {
+  .gbrain-credit-main { grid-template-columns: 1fr; gap: 35px; }
+}
+
+@media (max-width: 680px) {
+  .gbrain-credit { width: min(100% - 30px, 1180px); padding: 55px 0 46px; }
+  .gbrain-credit-copy { font-size: 18px; }
+  .gbrain-credit-meta { align-items: flex-start; flex-direction: column; }
+  .gbrain-repo-link { align-items: flex-start; flex-direction: column; }
 }
 
 @media (prefers-reduced-motion: reduce) {
