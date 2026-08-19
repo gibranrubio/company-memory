@@ -15,25 +15,26 @@ export default function Home() {
       </div>
 
       <header>
-        <a className="brand" href="#top">Company Memory</a>
+        <a className="brand" href="#top">Clone Your Brain</a>
         <nav aria-label="Main navigation">
           <a href="#diy">Do it yourself</a>
           <a href="#done-for-you">Done for you</a>
           <a href="#faq">FAQ</a>
         </nav>
-        <a className="header-cta" href={checkoutUrl}>Build mine</a>
+        <a className="header-cta" href={checkoutUrl}>Clone my brain</a>
       </header>
 
       <section className="hero">
         <p className="eyebrow">A persistent AI brain for your business</p>
         <h1>Your AI is brilliant.<br />Then it forgets everything.</h1>
         <p className="hero-copy">
-          Give Claude Code a private memory that survives every new conversation.
-          It can remember your customers, vendors, projects, decisions, and the
-          connections between them.
+          Turn everything you know about your company into an AI that never
+          forgets. Give Claude Code a private memory that survives every new
+          conversation and remembers your customers, vendors, projects, decisions,
+          and the connections between them.
         </p>
         <div className="hero-actions">
-          <a className="button button-dark" href={checkoutUrl}>Build it for me</a>
+          <a className="button button-dark" href={checkoutUrl}>Clone my brain</a>
           <a className="button button-light" href="#diy">I will do it myself</a>
         </div>
         <p className="microcopy">$2,000 done-for-you setup. Free instructions below.</p>
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
 
         <p className="gbrain-disclaimer">
-          Company Memory is an independent implementation service. It is not
+          Clone Your Brain is an independent implementation service offered by Company Memory. It is not
           affiliated with, sponsored by, or endorsed by Garry Tan, Y Combinator,
           or the GBrain project.
         </p>
@@ -116,7 +117,7 @@ export default function Home() {
         <div className="comparison-list">
           <div className="comparison-row comparison-head">
             <span>Without memory</span>
-            <span>With Company Memory</span>
+            <span>With your Brain Clone</span>
           </div>
           <div className="comparison-row">
             <span>Explain your business again</span>
@@ -140,7 +141,7 @@ export default function Home() {
       <section className="choice section-pad">
         <div className="section-label">Choose your path</div>
         <div className="choice-intro">
-          <h2>You can install the software yourself. Or I can make it useful.</h2>
+          <h2>You can install the software yourself. Or I can build your Brain Clone for you.</h2>
           <p>
             The basic installation takes about 15 minutes. Building the structure,
             importing the right knowledge, and teaching it how your company works
@@ -170,7 +171,7 @@ export default function Home() {
 
           <article className="offer offer-featured" id="done-for-you">
             <p className="offer-kicker">Path 02</p>
-            <h3>I build it for you</h3>
+            <h3>The Brain Clone</h3>
             <p className="price">$2,000 <small>one time</small></p>
             <p className="offer-summary">
               Best for founders who want a working company brain without spending
@@ -185,7 +186,7 @@ export default function Home() {
               <li>Five workflows built around your real questions</li>
               <li>Launch session and team handoff</li>
             </ul>
-            <a className="button button-white" href={checkoutUrl}>Build my Company Memory</a>
+            <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
             <p className="offer-note">Delivered in seven days. You own the setup.</p>
           </article>
         </div>
@@ -389,13 +390,13 @@ export default function Home() {
           I will build the first version, connect the important sources, and show
           you how to use it on the questions that already slow you down.
         </p>
-        <a className="button button-white" href={checkoutUrl}>Build my Company Memory</a>
+        <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
         <span>$2,000 one time. Delivered in seven days.</span>
       </section>
 
       <footer>
-        <span>Company Memory</span>
-        <span>Implementation by Gibran Rubio</span>
+        <span>Clone Your Brain</span>
+        <span>By Company Memory · Implementation by Gibran Rubio</span>
         <span>2026</span>
       </footer>
     </main>
