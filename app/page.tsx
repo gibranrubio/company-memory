@@ -37,7 +37,7 @@ export default function Home() {
           <a className="button button-dark" href={checkoutUrl}>Clone my brain</a>
           <a className="button button-light" href="#diy">I will do it myself</a>
         </div>
-        <p className="microcopy">$2,000 done-for-you setup. Free instructions below.</p>
+        <p className="microcopy">$2,000 done-for-you setup. Free instructions below. 100% money-back delivery guarantee.</p>
       </section>
 
       <section className="gbrain-credit" aria-labelledby="gbrain-credit-title">
@@ -187,6 +187,14 @@ export default function Home() {
               <li>Launch session and team handoff</li>
             </ul>
             <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
+            <div className="offer-guarantee">
+              <strong>100% Money-Back Delivery Guarantee</strong>
+              <p>
+                If I do not deliver a working Brain Clone within seven days of
+                kickoff, after you provide the required access and source material,
+                I will refund 100% of your payment.
+              </p>
+            </div>
             <p className="offer-note">Delivered in seven days. You own the setup.</p>
           </article>
         </div>
@@ -373,6 +381,16 @@ export default function Home() {
             </p>
           </details>
           <details>
+            <summary>What is the 100% money-back guarantee?</summary>
+            <p>
+              If I do not deliver a working Brain Clone within seven days of kickoff,
+              after you provide the required access and source material, I will refund
+              100% of your payment. Working means GBrain is installed, the private
+              backup is configured, the agreed sources are connected, five workflows
+              are delivered, and the memory round-trip test passes.
+            </p>
+          </details>
+          <details>
             <summary>What happens after seven days?</summary>
             <p>
               You leave with a working setup, a trained first set of workflows, and a
@@ -391,7 +409,7 @@ export default function Home() {
           you how to use it on the questions that already slow you down.
         </p>
         <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
-        <span>$2,000 one time. Delivered in seven days.</span>
+        <span>$2,000 one time. Delivered in seven days. 100% money-back delivery guarantee.</span>
       </section>
 
       <footer>
