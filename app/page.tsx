@@ -169,28 +169,33 @@ export default function Home() {
         <div><strong>You own it</strong><span>Local-first with private backup</span></div>
       </section>
 
-      <section className="before-after section-pad">
-        <div className="section-label">The difference</div>
-        <div className="comparison-list">
-          <div className="comparison-row comparison-head">
-            <span>Without memory</span>
-            <span>With your Knowledge</span>
+      <section className={styles.result}>
+        <p className={styles.kicker}>Why it is more than a search box</p>
+        <h2>Not notes. An engine.</h2>
+        <div className={styles.resultGrid}>
+          <div>
+            <strong>It knows how things connect</strong>
+            <span>Ask about one customer and it pulls their vendor, their pricing, their last order. It stores the relationships between facts, not just the facts, so one question walks the whole web.</span>
           </div>
-          <div className="comparison-row">
-            <span>Explain your business again</span>
-            <span>Start with the right context</span>
+          <div>
+            <strong>Ask in plain English</strong>
+            <span>It finds by meaning, not exact words. &ldquo;Who buys the black jars&rdquo; turns up the account even if you never typed those words. You don&apos;t have to remember how you filed it.</span>
           </div>
-          <div className="comparison-row">
-            <span>Search through old chats</span>
-            <span>Ask a question and trace the source</span>
+          <div>
+            <strong>It gets smarter overnight</strong>
+            <span>Every night it re-reads the day, connects new facts to what it already knew, and writes down what it learned. You come back to a sharper brain than you left, with zero work from you.</span>
           </div>
-          <div className="comparison-row">
-            <span>Keep decisions in your head</span>
-            <span>Turn decisions into durable memory</span>
+          <div>
+            <strong>Every answer shows its receipts</strong>
+            <span>It tells you where each fact came from, and says &ldquo;I don&apos;t know&rdquo; instead of guessing. Which means you can put it in front of a customer.</span>
           </div>
-          <div className="comparison-row">
-            <span>Lose context between sessions</span>
-            <span>Let useful knowledge compound</span>
+          <div>
+            <strong>It is yours, in plain files</strong>
+            <span>It runs on your machine and backs up to a private repository only you control. Not another SaaS renting your own data back to you.</span>
+          </div>
+          <div>
+            <strong>It compounds</strong>
+            <span>Every order, every answer, every decision makes the next one better. Most work in a business evaporates. This is the part that stacks.</span>
           </div>
         </div>
       </section>
