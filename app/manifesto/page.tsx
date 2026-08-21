@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import styles from "./manifesto.module.css";
 
 export const metadata: Metadata = {
-  title: "Why This Helped My $3.6M Business | Clone Your Brain",
+  title: "Why This Helped My $3.6M Business | The Knowledge",
   description:
-    "The founder manifesto behind Clone Your Brain: why a business becomes stronger when its context no longer lives in one person's head.",
+    "The founder manifesto behind The Knowledge: why a business becomes stronger when its context no longer lives in one person's head.",
 };
 
 const checkoutUrl = "https://buy.stripe.com/00weVd1txg4x8BO6aj4Ni06";
@@ -17,13 +17,13 @@ export default function Manifesto() {
       </div>
 
       <header>
-        <a className="brand" href="/">Clone Your Brain</a>
+        <a className="brand" href="/">The Knowledge</a>
         <nav aria-label="Manifesto navigation">
           <a href="/">Home</a>
           <a href="/#diy">Do it yourself</a>
           <a href="/#done-for-you">Done for you</a>
         </nav>
-        <a className="header-cta" href={checkoutUrl}>Clone my brain</a>
+        <a className="header-cta" href={checkoutUrl}>Build my Knowledge</a>
       </header>
 
       <article>
@@ -173,14 +173,14 @@ export default function Manifesto() {
             test, and hand it back to you in seven days.
           </p>
           <div className={styles.actions}>
-            <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
+            <a className="button button-white" href={checkoutUrl}>Build my Knowledge</a>
             <a className={styles.secondaryLink} href="/#guide">Use the free guide →</a>
           </div>
         </section>
       </article>
 
       <footer>
-        <span>Clone Your Brain</span>
+        <span>The Knowledge</span>
         <span>Built from inside Green Tech Packaging</span>
         <span><a href="/">Back to the main site</a></span>
       </footer>

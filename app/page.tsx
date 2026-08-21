@@ -15,51 +15,51 @@ export default function Home() {
       </div>
 
       <header>
-        <a className="brand" href="#top">Clone Your Brain</a>
+        <a className="brand" href="#top">The Knowledge</a>
         <nav aria-label="Main navigation">
           <a href="/manifesto">Why it matters</a>
           <a href="#diy">Do it yourself</a>
           <a href="#done-for-you">Done for you</a>
           <a href="#faq">FAQ</a>
         </nav>
-        <a className="header-cta" href={checkoutUrl}>Clone my brain</a>
+        <a className="header-cta" href={checkoutUrl}>Build my Knowledge</a>
       </header>
 
       <section className="hero">
-        <p className="eyebrow">A persistent AI brain for your business</p>
-        <h1>Your AI is brilliant.<br />Then it forgets everything.</h1>
+        <p className="eyebrow">A working memory for your business</p>
+        <h1>The most important database in<br />your company is still your head.</h1>
         <p className="hero-copy">
-          Turn everything you know about your company into an AI that never
-          forgets. Give Claude Code a private memory that survives every new
-          conversation and remembers your customers, vendors, projects, decisions,
-          and the connections between them.
+          I know, because I run one. At Green Tech Packaging I keep every price, every
+          customer, which vendor makes what, who ships it, and which SKU is about to
+          stock out. None of it is worth much alone. The value is how it all connects,
+          and that web lived in one place: my head. It took years to build, and if I
+          got hit by a bus most of it would go with me. London cab drivers spend four
+          years memorizing every street of the city and call it The Knowledge. I built
+          mine into something my whole team can ask, that never forgets, and gets
+          sharper every day. I will build yours in seven days.
         </p>
         <div className="hero-actions">
-          <a className="button button-dark" href={checkoutUrl}>Clone my brain</a>
+          <a className="button button-dark" href={checkoutUrl}>Build my Knowledge</a>
           <a className="button button-light" href="#diy">I will do it myself</a>
         </div>
-        <p className="microcopy">$2,000 done-for-you setup. Free instructions below. 100% money-back delivery guarantee.</p>
+        <p className="microcopy">$2,000 done for you. Free guide below. 100% money-back delivery guarantee.</p>
       </section>
 
       <section className="gbrain-credit" aria-labelledby="gbrain-credit-title">
         <div className="gbrain-credit-main">
           <div>
             <p className="eyebrow">Built on open source</p>
-            <h2 id="gbrain-credit-title">Built using GBrain.</h2>
+            <h2 id="gbrain-credit-title">Built on GBrain.</h2>
           </div>
           <p className="gbrain-credit-copy">
-            GBrain is the open-source AI memory system created by Garry Tan,
-            President and CEO of Y Combinator. The project has earned more than
-            28,000 GitHub stars. I independently implement it for founders and
-            their businesses.
+            GBrain is the open-source memory system created by Garry Tan, President and
+            CEO of Y Combinator, with more than 28,000 GitHub stars. I do not sell the
+            software. I sell the setup that turns an empty database into your company&apos;s
+            Knowledge.
           </p>
         </div>
 
         <div className="gbrain-credit-meta">
-          <p className="gbrain-credit-line">
-            Open-source software by Garry Tan.<br />
-            Independent implementation by Gibran Rubio.
-          </p>
           <a
             className="gbrain-repo-link"
             href="https://github.com/garrytan/gbrain"
@@ -76,41 +76,17 @@ export default function Home() {
         </div>
 
         <p className="gbrain-disclaimer">
-          Clone Your Brain is an independent implementation service offered by Company Memory. It is not
-          affiliated with, sponsored by, or endorsed by Garry Tan, Y Combinator,
-          or the GBrain project.
+          The Knowledge is an independent implementation service. It is not affiliated
+          with, sponsored by, or endorsed by Garry Tan, Y Combinator, or the GBrain
+          project.
         </p>
       </section>
 
       <section className="proof-line" aria-label="Offer highlights">
-        <div><strong>7 days</strong><span>From kickoff to working brain</span></div>
+        <div><strong>7 days</strong><span>From kickoff to working Knowledge</span></div>
         <div><strong>3 sources</strong><span>Connected and organized</span></div>
         <div><strong>5 workflows</strong><span>Built around your real work</span></div>
         <div><strong>You own it</strong><span>Local-first with private backup</span></div>
-      </section>
-
-      <section className="story section-pad">
-        <div className="section-label">Why I built this</div>
-        <div className="story-body">
-          <h2>I run a $4 million company. The most important database was still my brain.</h2>
-          <div className="story-copy">
-            <p>
-              At Green Tech Packaging, I know which customer buys which product,
-              which vendor makes it, what margin we earn, which broker ships it,
-              and when it is about to stock out.
-            </p>
-            <p>
-              None of those facts is especially valuable alone. The value is in
-              the connection between them. That connection was trapped in my head,
-              so every important question eventually came back to me.
-            </p>
-            <p>
-              I set up GBrain with Claude Code so those relationships could live
-              somewhere else. Now my AI can carry context from one session to the
-              next instead of starting from zero every morning.
-            </p>
-          </div>
-        </div>
       </section>
 
       <section className="before-after section-pad">
@@ -118,7 +94,7 @@ export default function Home() {
         <div className="comparison-list">
           <div className="comparison-row comparison-head">
             <span>Without memory</span>
-            <span>With your Brain Clone</span>
+            <span>With your Knowledge</span>
           </div>
           <div className="comparison-row">
             <span>Explain your business again</span>
@@ -142,11 +118,11 @@ export default function Home() {
       <section className="choice section-pad">
         <div className="section-label">Choose your path</div>
         <div className="choice-intro">
-          <h2>You can install the software yourself. Or I can build your Brain Clone for you.</h2>
+          <h2>Do it yourself, or have me build it.</h2>
           <p>
-            The basic installation takes about 15 minutes. Building the structure,
-            importing the right knowledge, and teaching it how your company works
-            is where the real work begins.
+            The install takes about 15 minutes. Mapping your business, importing the
+            right knowledge, and teaching it how you actually work is where the value
+            is, and where I come in.
           </p>
         </div>
 
@@ -156,8 +132,8 @@ export default function Home() {
             <h3>Do it yourself</h3>
             <p className="price">Free</p>
             <p className="offer-summary">
-              Best if you are comfortable in Terminal and want to experiment with
-              a personal brain first.
+              Best if you are comfortable in Terminal and want to experiment with a
+              personal brain first.
             </p>
             <ul>
               <li>Follow the official GBrain bootstrap</li>
@@ -172,11 +148,11 @@ export default function Home() {
 
           <article className="offer offer-featured" id="done-for-you">
             <p className="offer-kicker">Path 02</p>
-            <h3>The Brain Clone</h3>
+            <h3>The Knowledge, done for you</h3>
             <p className="price">$2,000 <small>one time</small></p>
             <p className="offer-summary">
-              Best for founders who want a working company brain without spending
-              a week learning the system.
+              Best for founders who want a working company memory without spending a
+              week learning the system.
             </p>
             <ul>
               <li>Founder knowledge-mapping session</li>
@@ -187,13 +163,13 @@ export default function Home() {
               <li>Five workflows built around your real questions</li>
               <li>Launch session and team handoff</li>
             </ul>
-            <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
+            <a className="button button-white" href={checkoutUrl}>Build my Knowledge</a>
             <div className="offer-guarantee">
               <strong>100% Money-Back Delivery Guarantee</strong>
               <p>
-                If I do not deliver a working Brain Clone within seven days of
-                kickoff, after you provide the required access and source material,
-                I will refund 100% of your payment.
+                If I do not deliver a working Knowledge within seven days of kickoff,
+                after you provide the required access and source material, I will refund
+                100% of your payment.
               </p>
             </div>
             <p className="offer-note">Delivered in seven days. You own the setup.</p>
@@ -204,20 +180,15 @@ export default function Home() {
       <section className="value section-pad">
         <div className="section-label">What you are buying</div>
         <div className="value-body">
-          <h2>This is not $2,000 to paste five commands.</h2>
+          <h2>You are paying to skip the empty database.</h2>
           <div>
             <p>
-              GBrain is open-source. I am not selling you the software. I am selling
-              the implementation.
-            </p>
-            <p>
-              You are paying to skip the blank-database problem and leave with a
-              memory that already understands the shape of your business, knows
-              where important information lives, and can help with the questions
-              you ask every week.
+              You leave with a memory that already knows the shape of your business,
+              where the important information lives, and how to answer the questions you
+              ask every week.
             </p>
             <p className="value-callout">
-              An empty brain is a database.<br />A filled brain is leverage.
+              An empty database is just software.<br />Your Knowledge is leverage.
             </p>
           </div>
         </div>
@@ -226,15 +197,14 @@ export default function Home() {
       <section className="outcomes section-pad">
         <div className="section-label">What it can help you answer</div>
         <div className="question-list">
-          <p>“Which customers buy this SKU, and what did we quote them?”</p>
-          <p>“Why did we choose this vendor instead of the other one?”</p>
-          <p>“What did I promise this customer the last time we spoke?”</p>
-          <p>“Which products are at risk of stocking out?”</p>
-          <p>“What decisions keep coming back to me?”</p>
+          <p>&ldquo;Which customers buy this SKU, and what did we quote them?&rdquo;</p>
+          <p>&ldquo;Why did we choose this vendor instead of the other one?&rdquo;</p>
+          <p>&ldquo;What did I promise this customer the last time we spoke?&rdquo;</p>
+          <p>&ldquo;Which products are at risk of stocking out?&rdquo;</p>
+          <p>&ldquo;What decisions keep coming back to me?&rdquo;</p>
         </div>
         <p className="outcome-note">
-          The exact answers depend on the information you choose to connect. The
-          system shows its sources and can tell you when it does not know.
+          It shows its sources and tells you when it does not know.
         </p>
       </section>
 
@@ -243,8 +213,8 @@ export default function Home() {
         <div className="guide-intro">
           <h2>Build your personal AI brain in about 15 minutes.</h2>
           <p>
-            This is the current recommended Claude Code path from the official
-            GBrain documentation. Use a new, empty folder, not an existing project.
+            This is the current recommended Claude Code path from the official GBrain
+            documentation. Use a new, empty folder, not an existing project.
           </p>
         </div>
 
@@ -344,8 +314,8 @@ export default function Home() {
             <summary>Is my information private?</summary>
             <p>
               The core database runs locally on your computer, and the bootstrap can
-              create a private GitHub repository for durable backup. Any AI provider
-              or outside source you connect has its own data policy. I explain those
+              create a private GitHub repository for durable backup. Any AI provider or
+              outside source you connect has its own data policy. I explain those
               boundaries before we connect anything, and you approve every source.
             </p>
           </details>
@@ -376,27 +346,27 @@ export default function Home() {
           <details>
             <summary>Are you selling GBrain?</summary>
             <p>
-              No. GBrain is open-source software created by Garry Tan. I sell the
-              setup, knowledge architecture, source connection, workflow design,
-              training, and implementation around it.
+              No. GBrain is open-source software created by Garry Tan. I sell the setup,
+              knowledge architecture, source connection, workflow design, training, and
+              implementation around it.
             </p>
           </details>
           <details>
             <summary>What is the 100% money-back guarantee?</summary>
             <p>
-              If I do not deliver a working Brain Clone within seven days of kickoff,
-              after you provide the required access and source material, I will refund
-              100% of your payment. Working means GBrain is installed, the private
-              backup is configured, the agreed sources are connected, five workflows
-              are delivered, and the memory round-trip test passes.
+              If I do not deliver a working Knowledge within seven days of kickoff, after
+              you provide the required access and source material, I will refund 100% of
+              your payment. Working means GBrain is installed, the private backup is
+              configured, the agreed sources are connected, five workflows are delivered,
+              and the memory round-trip test passes.
             </p>
           </details>
           <details>
             <summary>What happens after seven days?</summary>
             <p>
               You leave with a working setup, a trained first set of workflows, and a
-              clear handoff. The brain belongs to you and becomes more useful as you
-              continue adding decisions, notes, projects, and source material.
+              clear handoff. Your Knowledge belongs to you and gets more useful as you
+              keep adding decisions, notes, projects, and source material.
             </p>
           </details>
         </div>
@@ -406,16 +376,16 @@ export default function Home() {
         <p className="eyebrow">Stop re-explaining your company to your AI</p>
         <h2>By next week, your business can have a memory.</h2>
         <p>
-          I will build the first version, connect the important sources, and show
-          you how to use it on the questions that already slow you down.
+          I will build the first version, connect the important sources, and show you
+          how to use it on the questions that already slow you down.
         </p>
-        <a className="button button-white" href={checkoutUrl}>Clone my brain</a>
+        <a className="button button-white" href={checkoutUrl}>Build my Knowledge</a>
         <span>$2,000 one time. Delivered in seven days. 100% money-back delivery guarantee.</span>
       </section>
 
       <footer>
-        <span>Clone Your Brain</span>
-        <span>By Company Memory · Implementation by Gibran Rubio</span>
+        <span>The Knowledge</span>
+        <span>Built by Gibran Rubio</span>
         <span>2026</span>
       </footer>
     </main>
