@@ -17,6 +17,7 @@ export default function Home() {
       <header>
         <a className="brand" href="#top">Clone Your Brain</a>
         <nav aria-label="Main navigation">
+          <a href="/manifesto">Why it matters</a>
           <a href="#diy">Do it yourself</a>
           <a href="#done-for-you">Done for you</a>
           <a href="#faq">FAQ</a>
