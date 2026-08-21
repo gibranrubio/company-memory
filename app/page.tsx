@@ -9,13 +9,20 @@ export const metadata: Metadata = {
 
 const checkoutUrl = "https://buy.stripe.com/00weVd1txg4x8BO6aj4Ni06";
 
+const bootstrapPrompt = `Read and follow every step of:
+https://raw.githubusercontent.com/garrytan/gbrain/latest-stable/BOOTSTRAP_FOR_AGENTS.md
+Goal: set yourself up as my persistent personal agent in this folder, with gbrain
+as your memory. Interview me before writing any identity file. Never invent
+answers. Ask before anything destructive. You are not done until
+\`gbrain bootstrap verify\` exits 0.`;
+
 export default function Home() {
   return (
     <main id="top" className={styles.page}>
       <header>
         <a className="brand" href="#top">The Knowledge</a>
         <nav aria-label="Main navigation">
-          <a href="/guide">Free guide</a>
+          <a href="#guide">Free guide</a>
         </nav>
         <a className="header-cta" href={checkoutUrl}>Build my Knowledge</a>
       </header>
@@ -116,25 +123,214 @@ export default function Home() {
           </p>
         </section>
 
-        <section className={styles.closing}>
-          <p className={styles.kicker}>What I do</p>
-          <h2>I will build your company&apos;s Knowledge in seven days.</h2>
-          <p>
-            I set up the same system on your machine, map your business with you, connect
-            your real sources, and hand back a private memory that already knows how your
-            company works. It runs locally, backs up to a private repository only you
-            control, and it is yours to keep.
-          </p>
-          <div className={styles.actions}>
-            <a className="button button-white" href={checkoutUrl}>Build my Knowledge</a>
-            <a className={styles.secondaryLink} href="/guide">Or do it yourself, free &rarr;</a>
-          </div>
-          <p style={{ marginTop: "1.5rem", opacity: 0.7, fontSize: "0.95rem" }}>
-            $2,000, one time. Delivered in seven days. 100% money-back delivery guarantee.
-          </p>
-        </section>
-      </article>
+        </article>
 
+      <section className="gbrain-credit" aria-labelledby="gbrain-credit-title">
+        <div className="gbrain-credit-main">
+          <div>
+            <p className="eyebrow">Built on open source</p>
+            <h2 id="gbrain-credit-title">Built on GBrain.</h2>
+          </div>
+          <p className="gbrain-credit-copy">
+            GBrain is the open-source memory system created by Garry Tan, President and
+            CEO of Y Combinator, with more than 28,000 GitHub stars. I do not sell the
+            software. I sell the setup that turns an empty database into your company&apos;s
+            Knowledge.
+          </p>
+        </div>
+
+        <div className="gbrain-credit-meta">
+          <a
+            className="gbrain-repo-link"
+            href="https://github.com/garrytan/gbrain"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>View the official repository</span>
+            <img
+              src="https://img.shields.io/github/stars/garrytan/gbrain?style=flat-square&logo=github&label=GitHub%20stars&color=111111"
+              alt="Live GitHub star count for garrytan/gbrain"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <p className="gbrain-disclaimer">
+          The Knowledge is an independent implementation service. It is not affiliated
+          with, sponsored by, or endorsed by Garry Tan, Y Combinator, or the GBrain
+          project.
+        </p>
+      </section>
+
+      <section className="proof-line" aria-label="Offer highlights">
+        <div><strong>7 days</strong><span>From kickoff to working Knowledge</span></div>
+        <div><strong>3 sources</strong><span>Connected and organized</span></div>
+        <div><strong>5 workflows</strong><span>Built around your real work</span></div>
+        <div><strong>You own it</strong><span>Local-first with private backup</span></div>
+      </section>
+
+      <section className="before-after section-pad">
+        <div className="section-label">The difference</div>
+        <div className="comparison-list">
+          <div className="comparison-row comparison-head">
+            <span>Without memory</span>
+            <span>With your Knowledge</span>
+          </div>
+          <div className="comparison-row">
+            <span>Explain your business again</span>
+            <span>Start with the right context</span>
+          </div>
+          <div className="comparison-row">
+            <span>Search through old chats</span>
+            <span>Ask a question and trace the source</span>
+          </div>
+          <div className="comparison-row">
+            <span>Keep decisions in your head</span>
+            <span>Turn decisions into durable memory</span>
+          </div>
+          <div className="comparison-row">
+            <span>Lose context between sessions</span>
+            <span>Let useful knowledge compound</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="choice section-pad">
+        <div className="section-label">Choose your path</div>
+        <div className="choice-intro">
+          <h2>Do it yourself, or have me build it.</h2>
+          <p>
+            The install takes about 15 minutes. Mapping your business, importing the
+            right knowledge, and teaching it how you actually work is where the value
+            is, and where I come in.
+          </p>
+        </div>
+
+        <div className="offer-grid">
+          <article className="offer" id="diy">
+            <p className="offer-kicker">Path 01</p>
+            <h3>Do it yourself</h3>
+            <p className="price">Free</p>
+            <p className="offer-summary">
+              Best if you are comfortable in Terminal and want to experiment with a
+              personal brain first.
+            </p>
+            <ul>
+              <li>Follow the official GBrain bootstrap</li>
+              <li>Create a local memory on your Mac</li>
+              <li>Connect it to Claude Code</li>
+              <li>Create a private GitHub backup</li>
+              <li>Import and organize your own knowledge</li>
+              <li>Troubleshoot and build workflows yourself</li>
+            </ul>
+            <a className="text-link" href="#guide">Go to the free guide ↓</a>
+          </article>
+
+          <article className="offer offer-featured" id="done-for-you">
+            <p className="offer-kicker">Path 02</p>
+            <h3>The Knowledge, done for you</h3>
+            <p className="price">$2,000 <small>one time</small></p>
+            <p className="offer-summary">
+              Best for founders who want a working company memory without spending a
+              week learning the system.
+            </p>
+            <ul>
+              <li>Founder knowledge-mapping session</li>
+              <li>Complete GBrain and Claude Code setup</li>
+              <li>Private local memory and verified backup</li>
+              <li>Up to three knowledge sources connected</li>
+              <li>Your customers, vendors, projects, and decisions organized</li>
+              <li>Five workflows built around your real questions</li>
+              <li>Launch session and team handoff</li>
+            </ul>
+            <a className="button button-white" href={checkoutUrl}>Build my Knowledge</a>
+            <div className="offer-guarantee">
+              <strong>100% Money-Back Delivery Guarantee</strong>
+              <p>
+                If I do not deliver a working Knowledge within seven days of kickoff,
+                after you provide the required access and source material, I will refund
+                100% of your payment.
+              </p>
+            </div>
+            <p className="offer-note">Delivered in seven days. You own the setup.</p>
+          </article>
+        </div>
+      </section>
+
+      <section className="guide section-pad" id="guide">
+        <div className="section-label">The free setup guide</div>
+        <div className="guide-intro">
+          <h2>Build your personal AI brain in about 15 minutes.</h2>
+          <p>
+            This is the current recommended Claude Code path from the official GBrain
+            documentation. Use a new, empty folder, not an existing project.
+          </p>
+        </div>
+
+        <ol className="steps">
+          <li>
+            <div className="step-number">01</div>
+            <div>
+              <h3>Install Claude Code</h3>
+              <p>Open Terminal on your Mac and run:</p>
+              <pre><code>curl -fsSL https://claude.ai/install.sh | bash</code></pre>
+              <p>Close and reopen Terminal, run <code>claude</code>, and sign in.</p>
+            </div>
+          </li>
+          <li>
+            <div className="step-number">02</div>
+            <div>
+              <h3>Create a new folder for your brain</h3>
+              <pre><code>{`mkdir ~/brain\ncd ~/brain\nclaude`}</code></pre>
+            </div>
+          </li>
+          <li>
+            <div className="step-number">03</div>
+            <div>
+              <h3>Paste the official bootstrap prompt into Claude Code</h3>
+              <pre className="prompt"><code>{bootstrapPrompt}</code></pre>
+              <p>
+                Claude Code will guide the installation, ask six identity questions,
+                create the local memory, and connect a private GitHub repository.
+                Approve each step only after reading it.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="step-number">04</div>
+            <div>
+              <h3>Prove that it remembers</h3>
+              <p>
+                Tell it one small thing to remember. Close the session, open a fresh
+                session in the same folder, and ask for that fact back. If it returns
+                the fact from memory, the setup is working.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="step-number">05</div>
+            <div>
+              <h3>Fill the brain</h3>
+              <p>
+                Start with notes and documents you already own. GBrain also supports
+                consented imports for email, calendar, contacts, and offline archives.
+                Connect one source at a time and review what is being imported.
+              </p>
+            </div>
+          </li>
+        </ol>
+
+        <div className="guide-warning">
+          <strong>Important:</strong>
+          <p>
+            Do not run <code>bun install -g gbrain</code>. The package named
+            <code> gbrain</code> on npm is unrelated to Garry Tan&apos;s GBrain. Use the
+            official bootstrap above or the documented GitHub install path.
+          </p>
+        </div>
+      </section>
+
+      
       <footer>
         <span>The Knowledge</span>
         <span>Built by Gibran Rubio, inside Green Tech Packaging</span>
