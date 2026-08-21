@@ -33,16 +33,60 @@ export default function Home() {
           customer, which vendor makes what, who ships it, and which SKU is about to
           stock out. None of it is worth much alone. The value is how it all connects,
           and that web lived in one place: my head. It took years to build, and if I
-          got hit by a bus most of it would go with me. London cab drivers spend four
-          years memorizing every street of the city and call it The Knowledge. I built
-          mine into something my whole team can ask, that never forgets, and gets
-          sharper every day. I will build yours in seven days.
+          got hit by a bus most of it would go with me. I built that into something my
+          whole team can ask, that never forgets, and gets sharper every day. I will
+          build yours in seven days.
         </p>
         <div className="hero-actions">
           <a className="button button-dark" href={checkoutUrl}>Build my Knowledge</a>
           <a className="button button-light" href="#diy">I will do it myself</a>
         </div>
         <p className="microcopy">$2,000 done for you. Free guide below. 100% money-back delivery guarantee.</p>
+      </section>
+
+      <section className="story section-pad">
+        <div className="section-label">The name</div>
+        <div className="story-body">
+          <h2>Why it&apos;s called The Knowledge.</h2>
+          <div className="story-copy">
+            <p>
+              In London, you can&apos;t drive a black cab until you&apos;ve passed something
+              called The Knowledge. It&apos;s been the law since 1865. To pass, a driver has
+              to memorize every one of the 25,000 streets inside six miles of Charing
+              Cross, plus 20,000 landmarks, plus the fastest route between any two points,
+              all of it in their head, no map. It takes most people three to four years.
+              You see them everywhere in London, riding little mopeds with a clipboard,
+              muttering routes to themselves. Scientists have studied their brains and
+              found the memory part physically grows from the effort.
+            </p>
+            <p>
+              Here&apos;s the thing nobody expected: GPS didn&apos;t kill The Knowledge.
+              Turn-by-turn apps have the same streets, and cabbies still beat them,
+              because raw data isn&apos;t judgment. The Knowledge isn&apos;t a list of
+              streets. It&apos;s knowing that this one floods when it rains, that one backs
+              up at 4pm, this fare always wants the scenic route. It&apos;s context. And for
+              150 years, the only way to move it from one head to another was to make
+              someone spend four years building their own.
+            </p>
+            <p>
+              Every founder has The Knowledge of their own business. Every customer, every
+              price, who does what, the carrier you always book because you have a rate
+              deal, the SKU that&apos;s about to stock out. It took you years to build and it
+              lives in exactly one place: your head. It doesn&apos;t scale, because you
+              can&apos;t be in every conversation. It doesn&apos;t transfer, because your team
+              is each rebuilding a fraction of it, badly, in parallel. And it&apos;s fragile
+              in a way you don&apos;t say out loud.
+            </p>
+            <p>
+              We take The Knowledge out of your head and build it into something your whole
+              team can ask, that never forgets, and that gets sharper every day. Not a
+              search box. The thing that knows your accounts, flags the stock-out before it
+              happens, quotes in your voice, and remembers what you&apos;d remember. Four
+              years of context, standing up in a few evenings.
+            </p>
+            <p className="value-callout">We build your company&apos;s Knowledge.</p>
+          </div>
+        </div>
       </section>
 
       <section className="gbrain-credit" aria-labelledby="gbrain-credit-title">
